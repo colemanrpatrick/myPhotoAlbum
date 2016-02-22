@@ -1,0 +1,620 @@
+body{
+  background-color: black;
+}
+
+.content{
+  display:none
+}
+.active{
+  display: inline-block;
+}
+
+header{
+  height: 200px;
+  width: 97%;
+  font-size: 60px;
+  border: 20px solid rgba(0, 0, 0, 0.2);
+  background-image: url("./images/IMG_0165.jpg");
+  background-position: 75% 24%;
+  background-size: 118%;
+  font-family: "Indie Flower";
+  text-shadow: 4px 4px 5px black;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: white;
+}
+.sidebar{
+  float: left;
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  border: 9px solid black;
+}
+.sidebar p{
+  font-family: "Indie Flower";
+  color: white;
+  font-size: 20px;
+  border-bottom: 2px solid rgba(50, 50, 225,0.5);
+
+}
+
+.sideBarLi{
+  list-style: none;
+  color: white;
+  background-color: rgb(50, 50, 225);
+  margin-bottom: 25%;
+  font-size: 18px;
+  font-family: "Indie Flower";
+  text-shadow: 4px 4px 5px black;
+  transition: all 0.4s ease;
+  text-align: left;
+  border-bottom: 2px solid rgba(225, 225, 225, 0.5)
+}
+.sideBarLi:hover{
+  background-color:rgb(150, 150, 225);
+}
+
+
+.mainContainer{
+  background-color: white;
+  width: 60%;
+  height: 500px;
+  float: left;
+  display: inline-block;
+  background-image: url("./images/1-025.jpg");
+  background-size: 190%;
+  background-position: 15% 22%;
+  border: 20px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.pic1{
+  background-image: url("./images/IMG_0569.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin-left: 5px;
+  transition: width 1s, height 1s,transform 1s;
+  font-family: "Indie Flower";
+  color:white;
+  text-shadow: 4px 4px 4px black;
+  text-align: right;
+
+}
+.pic1:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic1zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0569.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic1zoom:hover{
+  transform: rotate(10deg);
+}
+
+.pic2{
+  background-image: url("./images/IMG_0570.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: 100%;
+  background-position: 50% 0;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  color:white;
+  font-family: "Indie Flower";
+  text-shadow: 4px 4px 4px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic2:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic2zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0570.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic2zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic3{
+  background-image: url("./images/IMG_0574.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  color:white;
+  font-family: "Indie Flower";
+  text-shadow: 4px 4px 4px black;
+  text-align: right;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic3:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic3zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0574.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic3zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic4{
+  background-image: url("./images/IMG_1116.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: 100%;
+  background-position:50%;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic4:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic4zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_1116.jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-position:50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic4zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic5{
+  background-image: url("./images/IMG_1127.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic5:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic5zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_1127.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic5zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+
+.pic6{
+  background-image: url("./images/IMG_1128.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic6:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+
+.pic6zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_1128.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic6zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+
+
+.pic7{
+  background-image: url("./images/IMG_1176.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic7:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic7zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_1176.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic7zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+
+
+
+.pic8{
+  background-image: url("./images/IMG_1172.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic8:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic8zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_1172.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic8zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+.pic9{
+  background-image: url("./images/IMG_0970.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic9:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic9zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0970.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic9zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+.pic10{
+  background-image: url("./images/IMG_0152.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic10:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic10zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0152.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic10zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic11{
+  background-image: url("./images/IMG_0163.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic11:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic11zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0163.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic11zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic12{
+  background-image: url("./images/IMG_0157.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic12:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic12zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0157.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic12zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+
+.pic13{
+  background-image: url("./images/IMG_1110.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  background-position: 0 50%;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic13:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic13zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_1110.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic13zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+.pic14{
+  background-image: url("./images/IMG_0041.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  background-size: cover;
+  display: inline-block;
+  background-size: 100%;
+  background-position: 0 50%;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic14:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic14zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0041.jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-position: 0 50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic14zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+.pic15{
+  background-image: url("./images/IMG_0131.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  display: inline-block;
+  background-size: 100%;
+  background-position: 0 50%;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic15:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic15zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0131.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic15zoom:hover{
+  transform: rotate(15deg);
+}
+
+
+.pic16{
+  background-image: url("./images/IMG_0409.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  display: inline-block;
+  background-size: 100%;
+  background-position: 0 50%;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic16:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic16zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0409.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic16zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic17{
+  background-image: url("./images/IMG_0446.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  display: inline-block;
+  background-size: 100%;
+  background-position: 0 50%;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic17:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic17zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0446.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic17zoom:hover{
+  transform: rotate(15deg);
+}
+
+.pic18{
+  background-image: url("./images/IMG_0528.jpg");
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  display: inline-block;
+  background-size: 100%;
+  background-position: 0 50%;
+  box-shadow: 4px 4px 10px black;
+  margin: 5px;
+  transition: width 1s, height 1s,transform 1s;
+}
+.pic18:hover{
+  width:200px;
+  height:200px;
+  transform: rotate(15deg);
+}
+.pic18zoom{
+  height: 500px;
+  width: 500px;
+  background-image: url("./images/IMG_0528.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  border: 5px solid white;
+  transition: width 2s, height 2s,transform 2s;
+}
+.pic18zoom:hover{
+  transform: rotate(15deg);
+}
